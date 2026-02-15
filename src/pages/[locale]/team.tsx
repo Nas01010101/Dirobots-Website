@@ -6,23 +6,24 @@ import { useTranslations } from "next-intl";
 import { Linkedin, Github } from "lucide-react";
 
 // Team members data - roleKey references translation keys
-{
-  name: "Quan Tran",
+const teamMembers = [
+  {
+    name: "Quan Tran",
     roleKey: "coDirector",
-      linkedin: "https://www.linkedin.com/in/benhoangquan/",
-        github: "https://github.com/benhoangquan",
+    linkedin: "https://www.linkedin.com/in/benhoangquan/",
+    github: "https://github.com/benhoangquan",
   },
-{
-  name: "Anas Elghoudane",
+  {
+    name: "Anas Elghoudane",
     roleKey: "director",
-      linkedin: "https://www.linkedin.com/in/anas-elghoudane-a1240b2b6/",
-        github: "https://github.com/Nas01010101",
+    inkedin: "https://www.linkedin.com/in/anas-elghoudane-a1240b2b6/",
+    github: "https://github.com/Nas01010101",
   },
-{
-  name: "Josué Mongan",
+  {
+    name: "Josué Mongan",
     roleKey: "coDirector",
-      linkedin: "https://www.linkedin.com/in/josué-mongan-a7b6242b8/",
-        github: "https://github.com/Josh012006",
+    linkedin: "https://www.linkedin.com/in/josué-mongan-a7b6242b8/",
+    github: "https://github.com/Josh012006",
   },
 ];
 

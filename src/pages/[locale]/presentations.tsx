@@ -80,10 +80,11 @@ const PresentationsPage = () => {
                     <li key={presentation.id}>
                       <button
                         onClick={() => setSelectedPdf(presentation.pdfUrl)}
-                        className={`w-full text-left p-3 rounded-md transition-colors duration-200 ${selectedPdf === presentation.pdfUrl
+                        className={`w-full text-left p-3 rounded-md transition-colors duration-200 ${
+                          selectedPdf === presentation.pdfUrl
                             ? "bg-seth-coral text-white"
                             : "hover:bg-gray-100 text-gray-700"
-                          }`}
+                        }`}
                       >
                         <div className="font-medium">{presentation.title}</div>
                         <div
